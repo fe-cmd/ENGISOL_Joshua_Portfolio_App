@@ -1,6 +1,8 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, Wrench, Cog, Hammer, Cpu, Bot, Lightbulb } from "lucide-react";
 
 export const AboutSection = () => {
+
+  
   return (
     <section id="about" className="py-24 px-4 relative">
       {" "}
@@ -12,13 +14,11 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
-            </h3>
+            Versatile Full-Stack Developer & Passionate Hardware Engr-Tech savy</h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+            With over 4 years of experience in full-stack development, I build responsive, real-world applications using Python, Django, React, and Node.js.
+            I’m passionate about merging software with hardware, creating smart solutions from web platforms to robotics and microcontrollers.
             </p>
 
             <p className="text-muted-foreground">
@@ -35,7 +35,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/resume_cv_akinwole_joshua_simidele .pdf"
+                download="resume_cv_akinwole_joshua_simidele .pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -61,13 +62,15 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+                  <Cog  className="h-6 w-6 text-primary" />
+                  <Wrench  className="h-6 w-6 text-primary" />
+                  <Hammer className="h-6 w-6 text-primary" />
+
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Fixing & Debugging</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                  Engineering Diagnosing and resolving complex issues to ensure smooth, bug-free functionality and optimal performance.
                   </p>
                 </div>
               </div>
@@ -75,15 +78,29 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
+                  <Bot className="h-6 w-6 text-primary" />
+                  <Cpu className="h-6 w-6 text-primary" />
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Hardwares (Robotics/Embedded Systems) Engineering</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                  Designing and developing innovative hardware solutions for robotics and embedded systems.
                   </p>
+                </div>
+              </div>
+            </div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Lightbulb className="h-6 w-6 text-primary" />
+                </div>
+
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Full-Stack web tutorial guides and consulting</h4>
+                  <p className="text-muted-foreground">
+                  Providing expert full-stack web development tutorials, guides, and consulting 
+                  to empower others in building robust web applications.                  </p>
                 </div>
               </div>
             </div>

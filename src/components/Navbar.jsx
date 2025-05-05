@@ -31,13 +31,18 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a
-          className="text-xl font-bold text-primary flex items-center"
+          className="text-xl font-bold text-primary flex items-center space-x-3"
           href="#hero"
         >
-          <span className="relative z-10">
-            <span className="text-glow text-foreground"> PedroTech </span>{" "}
-            Portfolio
-          </span>
+           <span className="relative z-10 whitespace-nowrap">
+    <span className="text-glow text-foreground">Joshua ENGISOL</span>{" "}
+    Portfolio
+  </span>
+  <img
+    src="/projects/logo.jpeg"
+    alt="Profile"
+    className="w-15 h-15 rounded-full object-cover border-2 border-white shadow-sm"
+  />
         </a>
 
         {/* desktop nav */}
