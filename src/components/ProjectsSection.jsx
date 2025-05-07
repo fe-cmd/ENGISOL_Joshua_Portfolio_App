@@ -7,8 +7,8 @@ const projects = [
     description: "A Full-Stack E-commerce app using Python, Django, Html, Css and Javascript(Ajax).",
     image: "/projects/proj2.PNG",
     tags: ["Python", "CSS", "Django", "Html", "Javascript"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://e-commerce-webapp-wsqv.onrender.com/",
+    githubUrl: "https://github.com/fe-cmd/E-commerce_webApp",
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const projects = [
       "Real time E-commerce shop platform for payment and shopping embedding in with it real time chat app among Buyers and sellers",
     image: "/projects/proj4.jpeg",
     tags: ["React", "NodeJs", "Css"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://shop-ecommerce-chatapp.netlify.app/",
+    githubUrl: "https://github.com/fe-cmd/Shop_E-commerce_ChatApp",
   },
   {
     id: 3,
@@ -37,8 +37,8 @@ const projects = [
       "Full-featured personal web awareness platform with effective user authentication and account security verification.",
     image: "/projects/proj1.PNG",
     tags: ["Python", "CSS", "Django", "Html", "Javascript"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://engisol-personal-webapp.onrender.com/",
+    githubUrl: "https://github.com/fe-cmd/Engisol_Personal_WebApp",
   },
   {
     id: 5,
@@ -47,8 +47,8 @@ const projects = [
       "Full-featured social media platform with user authentication, real time videocall & chat application, effective posts,friends connections and following.",
     image: "/projects/proj5.PNG",
     tags: ["Python", "TailwindCSS", "Django", "Html", "Javascript(Ajax)", "Agora", "WebSockets"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://heychat-socialmedia-app.onrender.com/",
+    githubUrl: "https://github.com/fe-cmd/heychat_socialmedia_app",
   },
   {
     id: 6,
@@ -57,8 +57,8 @@ const projects = [
       "Full-Stack e-commerce platform with user authentication and database server management,effective admin control.",
     image: "/projects/proj6.jpeg",
     tags: ["React", "Node.js", "MongoDb", "Css"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "#projects",
+    githubUrl: "https://github.com/fe-cmd/e-commerce_admin_webapp",
   },
 ];
 
